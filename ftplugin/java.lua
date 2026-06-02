@@ -1,6 +1,7 @@
 -- Java LSP configuration via nvim-jdtls
 -- This file is automatically loaded when a Java file is opened
 
+vim.cmd.packadd 'nvim-jdtls'
 local jdtls = require('jdtls')
 
 -- Resolve the Java executable from sdkman
